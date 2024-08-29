@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@font-face 
+    {font-family:'cavaleiro' ;
+    src: url('fontes/Witcher\ Knight.ttf') format('truetype');}
+@font-face 
+    {font-family: 'gotica';
+    src: url(fontes/A_Font_with_Serifs.ttf) format(truetype);}
+main 
+    {background-color:#ffffff7f;
+    border-radius: 30px;
+    color: #302840;
+    box-shadow: 10px 10px 10px #302840;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+background-attachment: fixed;}
+
+body
+    {font-style: normal;
+    background-image: linear-gradient(to right,#3028409e,#5d49a6df, #956da69f,#d991b996); 
+    background-attachment: fixed; 
+    text-align: center;}
+
+h1
+    {color: #302840;  
+    border: 5px solid #302840ad;
+    font-family: "cavaleiro", serif;
+    background-image: linear-gradient(to right, #302840ad,#5d49a6df, #d991b9a8 );
+    border-radius: 40px;
+    box-shadow:20px 20px 20px #302840;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;}    
+
+
+img
+    {border-radius: 10px;}
+
+video
+    {border-radius: 30px;}
+
+h2
+    {border:5px solid #302840;
+        border-radius: 40px;
+    box-shadow: 10px 10px 10px #302840;
+    outline: solid #d991b9a8;
+    margin-inline: 300px;
+    background-image: linear-gradient(to right, #302840ad,#5d49a6df, #d991b9a8 );
+    color: #302840;
+    font-family:'cavaleiro' ;
+    font-size: 20px;
+    text-align: center;
+background-attachment: fixed;}
+p
+    {color: #302840;
+    text-align: justify; font-family: "cavaleiro", serif;
+    text-indent: 20px;
+    font-family: 'gotica';
+    font-size: 20px;}
+
+ul
+    {text-align: center; font-family: "cavaleiro", serif;}
+
+
+    
+
+.basico
+{margin-inline: 250px;
+    font-size: 30px;
+    font-family: 'gotica';
+    background-image: linear-gradient(to right, #302840ad,#5d49a6df, #d991b9a8 )
+}
+.destaque{background-color: #d991b9a8;
+border-radius: 5px;}
+
+.caixa{width: 810px;
+background-color: #302840;
+background-attachment: fixed;}
